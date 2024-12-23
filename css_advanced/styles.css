@@ -1,0 +1,320 @@
+:root {
+	    /* colors */
+	    --white: #FFFFFF;
+	        --purple: #C271FF;
+		    --black: #071629;
+	    }
+
+	    *,
+	    *:before,
+	    *:after {
+		        box-sizing: border-box;
+			    padding: 0;
+			        margin: 0;
+			}
+
+			p,
+			h1,
+			h2,
+			h3,
+			a,
+			button {
+				    font-family: "Source Sans Pro";
+			    }
+
+			    .wrapper {
+				        margin-left: auto;
+					    margin-right: auto;
+					        width: 1110px;
+					}
+
+					/* ------------------nav -------------*/
+					header {
+						    position: absolute;
+						        width: 100%;
+							    top: 35px;
+						    }
+
+						    nav {
+							        display: flex;
+								    justify-content: space-between;
+							    }
+
+							    nav ul {
+								        list-style-type: none;
+									    display: flex;
+									        gap: 52px;
+									}
+
+									nav a {
+										    font-size: 12px;
+										        text-decoration: none;
+											    font-weight: bold;
+											        color: var(--white);
+											}
+
+											/* ---------------banner or hero------------------ */
+
+											.hero {
+												    height: 100vh;
+												        background-image: url(images/Object.png);
+													    background-size: cover;
+													        background-position: bottom center;
+														    text-align: center;
+
+														        display: flex;
+															    flex-direction: column;
+															        justify-content: space-between;
+																    color: var(--white);
+
+																        padding-top: 120px;
+																	    padding-bottom: 50px;
+																    }
+
+
+																    .hero h1 {
+																	        font-size: 80px;
+																		    font-weight: bold;
+
+																	    }
+
+																	    .words {
+																		        display: flex;
+																			    gap: 40px;
+																			        justify-content: center;
+																				    margin-bottom: 30px;
+																				        font-size: 16px;
+																					    font-weight: bold;
+																				    }
+
+																				    button {
+																					        background-color: var(--purple);
+																						    color: var(--white);
+																						        font-size: 14px;
+																							    padding: 12px 20px;
+																							        border-radius: 100px;
+																								    border: none;
+																								        font-weight: 800;
+																									    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.435);
+																								    }
+
+																								    h2 {
+																									        font-size: 32px;
+																										    font-weight: 100;
+																										        margin-bottom: 50px;
+																										}
+
+																										.purple-word {
+																											    color: var(--purple);
+																											        font-weight: 600;
+																											}
+
+																											.hero p {
+																												    font-size: 16px;
+																												        line-height: 24px;
+																													    font-style: italic;
+																												    }
+
+																												    h3 {
+																													        font-size: 18px;
+																														    line-height: 27px;
+																														        font-weight: bold;
+																														}
+
+																														.hero img {
+																															    width: 150px;
+																															        height: 150px;
+																																    border-radius: 200px;
+																																        object-fit: cover;
+																																}
+
+																																.members {
+																																	    display: flex;
+																																	        justify-content: space-around;
+																																	}
+
+																																	.member {
+																																		    width: 200px;
+																																	    }
+
+																																	    /* ----------testomonial----------------- */
+
+																																	    .testimonial {
+																																		        background-color: var(--purple);
+																																			    padding: 70px;
+																																		    }
+
+																																		    .testimonial .wrapper {
+																																			        display: flex;
+																																				    align-items: center;
+																																				        gap: 53px;
+																																					    width: 943px;
+																																					        color: var(--white);
+																																					}
+
+																																					.testimonial blockquote {
+																																						    margin-bottom: 30px;
+																																					    }
+
+																																					    .occupation {
+																																						        font-style: italic;
+																																						}
+
+																																						/*------------------tutorials------------------- */
+
+																																						.tutorials {
+																																							    padding: 80px 0;
+																																						    }
+
+																																						    .tutorials h2 {
+																																							        text-align: center;
+																																							}
+
+																																							.tutorials .cards {
+																																								    display: flex;
+																																								        gap: 30px;
+																																								}
+
+																																								.card {
+																																									    position: relative;
+																																								    }
+
+																																								    .tutorials .play-icon {
+																																									        position: absolute;
+																																										    z-index: 99;
+																																										        left: 95.5px;
+																																											    top: 45px;
+																																											        /* transform: translateX(50%); */
+																																										    }
+
+																																										    .card-text {
+																																											        padding: 10px;
+																																											}
+
+																																											.card-text h3 {
+																																												    font-size: 16px;
+																																												        color: black;
+																																													    font-weight: bold;
+																																													        margin-bottom: 5px;
+																																													}
+
+																																													.card-text p {
+																																														    font-size: 14px;
+																																														        color: rgba(0, 0, 0, 0.511);
+																																															    font-weight: 100;
+																																															        margin-bottom: 20px;
+																																															}
+
+																																															.avatar {
+																																																    display: flex;
+																																																        align-items: center;
+																																																	    gap: 10px;
+																																																	        margin-bottom: 20px;
+																																																	}
+
+																																																	.avatar img {
+																																																		    width: 40px;
+																																																		        aspect-ratio: 1;
+																																																		}
+
+																																																		.avatar h4 {
+																																																			    color: var(--purple);
+																																																			        font-size: 14px;
+																																																				    font-weight: 600;
+																																																			    }
+
+																																																			    .rating {
+																																																				        display: flex;
+																																																					    justify-content: space-between;
+																																																					        align-items: center;
+																																																					}
+
+																																																					.rating p {
+																																																						    color: var(--purple);
+																																																						        font-weight: bold;
+																																																							    margin-bottom: 0;
+																																																						    }
+
+																																																						    /* membership */
+
+																																																						    .membership {
+																																																							        background-color: var(--black);
+																																																								    color: var(--white);
+																																																								        text-align: center;
+																																																									    padding: 80px 0;
+																																																								    }
+
+																																																								    .membership .wrapper {
+																																																									        display: flex;
+																																																										    margin-top: 50px;
+																																																										        margin-bottom: 80px;
+
+																																																										}
+
+																																																										.membership h3 {
+																																																											    margin-top: 20px;
+																																																											        margin-bottom: 20px;
+																																																											}
+
+
+																																																											/* --------------------------faqs------------------- */
+
+																																																											.faqs {
+																																																												    padding: 80px 0;
+																																																											    }
+
+																																																											    .faq-flex {
+																																																												        display: flex;
+																																																													    gap: 220px;
+																																																												    }
+
+																																																												    .faq-flex:nth-child(1) {
+																																																													        margin-bottom: 75px;
+																																																													}
+
+																																																													.faqs h2 {
+																																																														    text-align: center;
+																																																														        font-size: 60px;
+																																																															    font-weight: 100;
+																																																															        color: var(--black);
+																																																															}
+
+																																																															.faqs h3 {
+																																																																    font-size: 16px;
+																																																																        margin-bottom: 30px;
+																																																																}
+
+																																																																.faq-description {
+																																																																	    font-size: 14px;
+																																																																	        line-height: 24px;
+																																																																		    color: #07162979;
+																																																																	    }
+
+																																																																	    /* -------------FOOTER---------------- */
+
+																																																																	    footer {
+																																																																		        background-color: var(--black);
+																																																																			    padding-top: 80px;
+																																																																			        padding-bottom: 40px;
+																																																																			}
+
+																																																																			footer .wrapper {
+																																																																				    display: flex;
+																																																																				        justify-content: space-between;
+																																																																				}
+
+																																																																				.socials {
+																																																																					    display: flex;
+																																																																					        gap: 20px;
+																																																																					}
+
+																																																																					.socials i {
+																																																																						    color: var(--white);
+																																																																					    }
+
+																																																																					    footer p {
+																																																																						        text-align: center;
+																																																																							    color: rgba(255, 255, 255, 0.386);
+																																																																							        font-size: 12px;
+																																																																								    margin-top: 40px;
+																																																																							    }
